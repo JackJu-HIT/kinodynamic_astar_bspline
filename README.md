@@ -8,6 +8,12 @@
 
 ROS 2 节点提供 RViz 交互输入与规划结果可视化。ROS 包名为 `kinodynamic_astar`，可执行文件为 `motion_plan`。
 
+## 规划效果
+
+下图展示 Kinodynamic A* 前端搜索与 B 样条后端优化的二维避障规划效果。
+
+![Kinodynamic A* + B-spline 二维规划效果](pic/result.jpg)
+
 ## 核心功能
 
 - **二维地图**：原始占据层与圆形膨胀层，局部地图随当前车体位置重建。
