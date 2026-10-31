@@ -1,0 +1,2 @@
+# kinodynamic_astar_bspline
+一种基于前端Kinodynamic + 后端_bspline优化适用于地面机器人的2D轨迹规划器
