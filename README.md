@@ -221,9 +221,9 @@ ros2 run kinodynamic_astar motion_plan --ros-args \
 ## 参考与致谢
 
 - [ZJU-FAST-Lab/ego-planner](https://github.com/ZJU-FAST-Lab/ego-planner)：原始 EGO-Planner 算法。
-- Fast Planner 后端参考：工作区中的 `Fast-Planner-2D-ROS2`，移植了梯度弹性带、非均匀 B 样条及 ESDF 距离场模块。
-- [JackJu-HIT/Ego-Planner-2D-ROS2](https://github.com/JackJu-HIT/Ego-Planner-2D-ROS2)：本项目的二维 ROS 2 基础工程，也是当前 Git remote 指向的仓库。
--  [JackJu-HIT/SCAN-Planner-Pure-ROS2](https://github.com/JackJu-HIT/SCAN-Planner-Pure-ROS2)：局部占据地图与沿航向前后偏移查询的参考实现。
+- [HKUST-Aerial-Robotics/Fast-Planner](https://github.com/HKUST-Aerial-Robotics/Fast-Planner.git)：感谢 HKUST Aerial Robotics Group 对 Fast-Planner 的开源共享。本项目后端的梯度弹性带优化、三次非均匀 B 样条轨迹参数化与优化、ESDF 距离场避障及时间调整方法参考该项目，并针对二维地面机器人和 ROS 2 做了适配。
+- 工作区中的 `Fast-Planner-2D-ROS2`：本项目集成后端模块时参考的二维 ROS 2 移植工程。
+- [JackJu-HIT/Ego-Planner-2D-ROS2](https://github.com/JackJu-HIT/Ego-Planner-2D-ROS2)：本项目的二维 ROS 2 基础工程。
 
 本项目由 Two-Circle-EGO-Planner-2D-ROS2 改造而来，并集成 standalone_planner 中的 Kinodynamic A*。用于二次开发或论文时，请注明所使用的仓库地址与版本，并保留上游署名。
 
